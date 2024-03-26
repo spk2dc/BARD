@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Lly3h-kiKk6mAU0yBc26Jg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://nlsbard.loc.gov/nlsbardprod/mainpage" DesignTimeRectangle="342, 244, 392, 237" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl tag='DIV' visibleinnertext='BARD&amp;#xA;BARD main page' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='DIV' visibleinnertext='BARD&amp;#xA;BARD main page' check:text='BARD &amp;#xA;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;BARD main page' /&gt;" Guid="6ff704f5-9f3a-421a-8d48-a3e0b5868adb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD BARD main page' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="342, 392, 392, 51" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H2' aaname='BARD main page' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' aaname='BARD main page' check:text='BARD main page' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6197f9339e1ed879d3d67f5f1ea99337.png" xmlns="">0xpUYIo9lfUilJR6T5LW3wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

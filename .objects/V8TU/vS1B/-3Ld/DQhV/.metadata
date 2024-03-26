@@ -1,0 +1,16 @@
+﻿{
+  "Name": "language",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "DQhVnG9t5UG3iu0YdOZooQ",
+  "Reference": "RViNqRqnmUy3o1XF3nr19g/DQhVnG9t5UG3iu0YdOZooQ",
+  "ParentRef": "RViNqRqnmUy3o1XF3nr19g/-3Ld9WRJv0KfUeJ3gCMHOw",
+  "Created": "2024-03-26T00:58:55.3320033Z",
+  "Updated": "2024-03-26T01:00:41.1625878Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

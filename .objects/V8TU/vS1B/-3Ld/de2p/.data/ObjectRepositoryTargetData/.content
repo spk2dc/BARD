@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0q8osBnlAUCR-f_gSAsVdQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://nlsbard.loc.gov/nlsbardprod/mainpage" DesignTimeRectangle="982, 687, 49, 31" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Go' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Go' check:text='Go' /&gt;" Guid="f52730e8-1eca-42f5-85ac-15488d1672d4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD BARD main page' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="28, 579, 1861, 35" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H2' aaname='FIND BOOKS' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' aaname='FIND BOOKS' check:text='FIND BOOKS' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b52f03f33d79ab2cc9a80a7e3df0e9ed.png" xmlns="">01fV00msYWE-8vCphM2o_SA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

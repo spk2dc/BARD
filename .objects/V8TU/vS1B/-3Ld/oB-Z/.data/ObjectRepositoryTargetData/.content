@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N-n2VrJLZ0uHHus7r2lrmQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://nlsbard.loc.gov/nlsbardprod/download/detail/srch/DB18784" DesignTimeRectangle="28, 1142, 1185, 33" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Add to my wish list*' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Add to my wish list*' tag='A' check:text='Add to my wish list*' /&gt;" Guid="31a2391b-fd1d-4f1a-b3c8-08dd42a172fb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD Man&amp;apos;s search for meaning: an introduction to logotherapy' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="28, 152, 1861, 68" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' isleaf='1' parentclass='content' visibleinnertext='BARD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' isleaf='1' parentclass='content' visibleinnertext='BARD' check:text='BARD' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a40e6153ca4a88f1a091cb0d90e7debf.png" xmlns="">0kDtY3sw2cUipFVSF8szVYw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

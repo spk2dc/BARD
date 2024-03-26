@@ -1,0 +1,15 @@
+﻿{
+  "Name": "wishlist",
+  "Type": "Screen",
+  "Id": "-3Ld9WRJv0KfUeJ3gCMHOw",
+  "Reference": "RViNqRqnmUy3o1XF3nr19g/-3Ld9WRJv0KfUeJ3gCMHOw",
+  "ParentRef": "RViNqRqnmUy3o1XF3nr19g/vS1BBPkuPkqvSA5OIRHwMg",
+  "Created": "2024-03-26T00:47:51.2942914Z",
+  "Updated": "2024-03-26T00:47:59.6948434Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FmLGacE3vUSsJe-hw2W76w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://nlsbard.loc.gov/nlsbardprod/login/aHR0cHM6Ly9ubHNiYXJkLmxvYy5nb3YvbmxzYmFyZHByb2QvbWFpbnBhZ2U/NLS" DesignTimeRectangle="48, 863, 74, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Login' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Login' check:text='Login' /&gt;" Guid="f7237ead-cece-41fe-8a09-db2873791ba0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD: Braille and Audio Reading Download National Library Service for the Blind and Print Disabled Downloadable Books and Magazines' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="779d8d1402bbefe7b79d8af04bf697ec.png" xmlns="">0QVst2EAJO0aF-X4ujrBsWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

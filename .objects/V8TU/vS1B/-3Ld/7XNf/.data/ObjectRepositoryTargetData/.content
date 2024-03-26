@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q5GSWjAIvUqK3E0ApDmyPA" Reference="RViNqRqnmUy3o1XF3nr19g/7XNfK6uh-028sD8OZRokDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://nlsbard.loc.gov/nlsbardprod/mainpage" CvElementArea="347, 685, 309, 35" CvType="InputBox" DesignTimeRectangle="349, 687, 309, 31" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Search the collection: ' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' aaname='Search the collection: ' /&gt;" Guid="d9509f40-fb8b-4afc-8cb5-fd5d00a6bbf4" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD BARD main page' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArea="62, 690, 279, 22" CvTextArgument="Search the collection:" CvType="Text" DesignTimeRectangle="65, 687, 284, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Search the collection: ' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Search the collection: ' tag='LABEL' check:text='Search the collection:' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1fd56d01fba7d26ca20036563eb59a48.png" xmlns="">0G-TQ8-dNzkOJsdqKxtyP0A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

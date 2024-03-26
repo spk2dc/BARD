@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uucAS3pkn0iULiIsvnDQLQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://nlsbard.loc.gov/nlsbardprod/login/aHR0cHM6Ly9ubHNiYXJkLmxvYy5nb3YvbmxzYmFyZHByb2QvbWFpbnBhZ2U/NLS" DesignTimeRectangle="48, 709, 872, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Email Address' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' aaname='Email Address' /&gt;" Guid="1886f3f5-4347-4cce-bf81-c08e084e8d74" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD: Braille and Audio Reading Download National Library Service for the Blind and Print Disabled Downloadable Books and Magazines' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="48, 678, 120, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Email Address' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' aaname='Email Address' check:text='Email Address' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="59a125839a4029a514607f1519e8a7f4.png" xmlns="">0XrLPKpkL6k-Hj_wVUuj1og</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

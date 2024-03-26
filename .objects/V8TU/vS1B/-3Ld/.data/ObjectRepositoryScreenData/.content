@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="LEwBoNYOMkiNG6_EKmyT2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABaSURBVDhP3YpBCsBADALzyH1cf9setgYVe0iPOzAgap3Cuu437QzBV9fwYWKTRpZJnZxd3wFnOUxs0sgyqZOz6zvgLIeJTRpZJnVydn0HnOUwUUhDOqbuP1UPUPcBEvX+bFEAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='BARD BARD main page' /&gt;" Title="BARD BARD main page" Url="https://nlsbard.loc.gov/">
+      <imageRef attrName="InformativeScreenshot" originalValue="2e47d2c52b8acd0690cb53c10e10b71f.jpg" xmlns="">0gPLMMWWAc0Ko_L7HaQkAdA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

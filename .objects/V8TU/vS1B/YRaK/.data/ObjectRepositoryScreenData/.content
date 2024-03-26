@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="pw9Gxd-wSkuuWR7udzBA9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABaSURBVDhP3YpBCsBADALzyH1cf9setgYVe0iPOzAgap3Cuu437QzBV9fwYWKTRpZJnZxd3wFnOUxs0sgyqZOz6zvgLIeJTRpZJnVydn0HnOUwUUhDOqbuP1UPUPcBEvX+bFEAAAAASUVORK5CYII=" Selector="&lt;html app='chrome.exe' title='BARD: Braille and Audio Reading Download National Library Service for the Blind and Print Disabled Downloadable Books and Magazines' /&gt;" Title="BARD: Braille and Audio Reading Download National Library Service for the Blind and Print Disabled Downloadable Books and Magazines" Url="https://nlsbard.loc.gov/nlsbardprod/login/aHR0cHM6Ly9ubHNiYXJkLmxvYy5nb3YvbmxzYmFyZHByb2QvbWFpbnBhZ2U/NLS">
+      <imageRef attrName="InformativeScreenshot" originalValue="b6fd873c70687a437965da58c11c0b77.jpg" xmlns="">0zYhGXgAOL0SoS4fOLq3rrQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

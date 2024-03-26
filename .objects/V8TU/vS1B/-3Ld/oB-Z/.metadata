@@ -1,0 +1,16 @@
+﻿{
+  "Name": "add",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "oB-ZFgLOKU-Cqg6cwgjopg",
+  "Reference": "RViNqRqnmUy3o1XF3nr19g/oB-ZFgLOKU-Cqg6cwgjopg",
+  "ParentRef": "RViNqRqnmUy3o1XF3nr19g/-3Ld9WRJv0KfUeJ3gCMHOw",
+  "Created": "2024-03-26T15:07:01.9809457Z",
+  "Updated": "2024-03-26T15:10:45.9129458Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

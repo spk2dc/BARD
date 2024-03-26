@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IBJkNM6he0CvAoZgAZ5sFA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://nlsbard.loc.gov/nlsbardprod/download/detail/srch/DB92857" DesignTimeRectangle="28, 683, 1850, 66" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Remove from my wish list*' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Remove from my wish list*' tag='A' check:text='Remove from my wish list*' /&gt;" Guid="906659b0-36c5-4006-a044-590a88114ef3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD Atomic habits: tiny changes, remarkable results : an easy &amp;amp; proven way to build good habits &amp;amp; break bad ones' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="28, 887, 374, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Back to BARD main page' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Back to BARD main page' tag='A' check:text='Back to BARD main page' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="76536d2545a30364354cc3bd3f396f64.png" xmlns="">0UIkHvA_ERUCBAngxlOS65g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

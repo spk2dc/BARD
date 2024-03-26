@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jyIGHGIL1UWYj7h5J0f9iw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://nlsbard.loc.gov/nlsbardprod/wishlist/add/srch/DB18784" DesignTimeRectangle="28, 925, 253, 33" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='BARD main page' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='BARD main page' tag='A' check:text='BARD main page' /&gt;" Guid="a8e91c9a-f9cc-4bcc-b29f-a24177e57173" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD Book Man&amp;apos;s search for meaning: an introduction to logotherapy successfully added to wish list' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="28, 994, 114, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Log out' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Log out' tag='A' check:text='Log out' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="27c1a0f977af594a3be6e7322f6e06ca.png" xmlns="">083LxcEcadE6KzP3h5U-ewQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

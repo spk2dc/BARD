@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l1sFS_JqGUa1j1j3DqNv3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://nlsbard.loc.gov/nlsbardprod/mainpage" DesignTimeRectangle="665, 688, 310, 28" DesignTimeScaleFactor="1.25" ElementType="DropDown" FullSelectorArgument="&lt;webctrl tag='SELECT' aaname='Preferred Language defaults to the account settings language selections. To see results in another language, select it here.' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' aaname='Preferred Language defaults to the account settings language selections. To see results in another language, select it here.' /&gt;" Guid="177b2934-ebbe-4d41-8d94-f1fb3120010a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD BARD main page' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="28, 579, 1861, 35" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H2' aaname='FIND BOOKS' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' aaname='FIND BOOKS' check:text='FIND BOOKS' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ad158c7a4cd0357476a9cbe963e131a4.png" xmlns="">0AoYfkzPpD0GPONo533zjnA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

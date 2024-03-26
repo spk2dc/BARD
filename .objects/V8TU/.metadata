@@ -1,0 +1,11 @@
+﻿{
+  "Name": "BARD",
+  "Type": "App",
+  "Id": "V8TUh_WUVEK0X5RkEPz0cA",
+  "Reference": "RViNqRqnmUy3o1XF3nr19g/V8TUh_WUVEK0X5RkEPz0cA",
+  "Created": "2024-03-26T00:45:04.7093172Z",
+  "Updated": "2024-03-26T00:45:04.7093172Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.2.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
