@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1196,4567.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1196,4468.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>WPL_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -115,7 +115,7 @@
       <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="BARD" sap:VirtualizedContainerService.HintSize="1206.4,4502.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="BARD" sap:VirtualizedContainerService.HintSize="1206.4,4404" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="author" />
       <Variable x:TypeArguments="x:String" Name="title" />
@@ -128,90 +128,90 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[index]" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="1144,4413.6" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[list]">
-      <ui:ForEach.Body>
-        <ActivityAction x:TypeArguments="x:String">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="wishlist" sap:VirtualizedContainerService.HintSize="1144,4315.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="7d3830cc-4997-4ccf-8326-3b04c753705b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:String" Name="currentItem" />
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1110.4,4224.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1110.4,4035.2" sap2010:WorkflowViewState.IdRef="Sequence_9">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="wishlist" sap:VirtualizedContainerService.HintSize="1048,4138.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="7d3830cc-4997-4ccf-8326-3b04c753705b" Version="V2">
-              <uix:NApplicationCard.Body>
-                <ActivityAction x:TypeArguments="x:Object">
+            <uix:NCheckState DisplayName="Check App State 'logged in'" sap:VirtualizedContainerService.HintSize="1048,1080.8" sap2010:WorkflowViewState.IdRef="NCheckState_4" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,259.2" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="387.2,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Already logged in&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,830.4" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_42" Text="senthil.kannan.61109@gmail.com" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/login/aHR0cHM6Ly9ubHNiYXJkLmxvYy5nb3YvbmxzYmFyZHByb2QvbWFpbnBhZ2U/NLS" ContentHash="uucAS3pkn0iULiIsvnDQLQ" DesignTimeRectangle="48, 709, 872, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Email Address' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' aaname='Email Address' /&gt;" Guid="1886f3f5-4347-4cce-bf81-c08e084e8d74" InformativeScreenshot="59a125839a4029a514607f1519e8a7f4.png" IsResponsive="True" Reference="RViNqRqnmUy3o1XF3nr19g/UulkYOL62kCaeYF3AuMw1Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD: Braille and Audio Reading Download National Library Service for the Blind and Print Disabled Downloadable Books and Magazines' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="48, 678, 120, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Email Address' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' aaname='Email Address' check:text='Email Address' /&gt;" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="387.2,56.8" sap2010:WorkflowViewState.IdRef="GetPassword_3" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbSUrN+yc10W4KjPVbhCNMwAAAAACAAAAAAAQZgAAAAEAACAAAAAc9EXN42QM9wz2x/RrWyM1HwA6D7lr+YZsckKCR9ZTFwAAAAAOgAAAAAIAACAAAADyetz+vCY672Gn2D17kM8goZzRgjqHLqGsW62WlQ/wJBAAAABjA8ZNtPOor2alD/s3FFwFQAAAAKkvixeMdb/Of/lPr7ZIiyI7RuSLwMYAA6AdqrDX5KRfhFdQZHtQ8xXzK/p6lsQEhMWJ6Estfl5WnwdhUDVhVU8=" Result="[pwd]" />
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_43" Text="[pwd]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/login/aHR0cHM6Ly9ubHNiYXJkLmxvYy5nb3YvbmxzYmFyZHByb2QvbWFpbnBhZ2U/NLS" ContentHash="rOSiFhmzuUS4YlR-MpNrVQ" DesignTimeRectangle="48, 801, 872, 43" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' aaname='Password' /&gt;" Guid="dea0e56d-9b4a-443e-9ed1-1430682b54ab" InformativeScreenshot="65aae04718f1e13a63ccbe3165051195.png" Reference="RViNqRqnmUy3o1XF3nr19g/GefFXztCLEuWGHl03kl9Mw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD: Braille and Audio Reading Download National Library Service for the Blind and Print Disabled Downloadable Books and Magazines' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="48, 770, 82, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' check:text='Password' /&gt;" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'login'" sap:VirtualizedContainerService.HintSize="387.2,182.4" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/login/aHR0cHM6Ly9ubHNiYXJkLmxvYy5nb3YvbmxzYmFyZHByb2QvbWFpbnBhZ2U/NLS" ContentHash="FmLGacE3vUSsJe-hw2W76w" DesignTimeRectangle="48, 863, 74, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Login' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Login' check:text='Login' /&gt;" Guid="f7237ead-cece-41fe-8a09-db2873791ba0" InformativeScreenshot="779d8d1402bbefe7b79d8af04bf697ec.png" Reference="RViNqRqnmUy3o1XF3nr19g/aR4d0DS5bEiMFejsYQ04-A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD: Braille and Audio Reading Download National Library Service for the Blind and Print Disabled Downloadable Books and Magazines' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/mainpage" ContentHash="Lly3h-kiKk6mAU0yBc26Jg" DesignTimeRectangle="342, 244, 392, 237" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl tag='DIV' visibleinnertext='BARD&amp;#xA;BARD main page' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='DIV' visibleinnertext='BARD&amp;#xA;BARD main page' check:text='BARD &amp;#xA;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;BARD main page' /&gt;" Guid="6ff704f5-9f3a-421a-8d48-a3e0b5868adb" InformativeScreenshot="6197f9339e1ed879d3d67f5f1ea99337.png" Reference="RViNqRqnmUy3o1XF3nr19g/sbMd9BhlYEOBub1aRV-a2Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD BARD main page' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="342, 392, 392, 51" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H2' aaname='BARD main page' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' aaname='BARD main page' check:text='BARD main page' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[index]" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="1048,2868" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[list]">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="x:String">
                   <ActivityAction.Argument>
-                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    <DelegateInArgument x:TypeArguments="x:String" Name="currentItem" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1014.4,3898.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1014.4,2679.2" sap2010:WorkflowViewState.IdRef="Sequence_21">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NCheckState DisplayName="Check App State 'logged in'" sap:VirtualizedContainerService.HintSize="952,1080.8" sap2010:WorkflowViewState.IdRef="NCheckState_4" Version="V3">
-                      <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,259.2" sap2010:WorkflowViewState.IdRef="Sequence_17">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="387.2,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Already logged in&quot;]" />
-                        </Sequence>
-                      </uix:NCheckState.IfExists>
-                      <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,830.4" sap2010:WorkflowViewState.IdRef="Sequence_18">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_42" Text="senthil.kannan.61109@gmail.com" Version="V3">
-                            <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/login/aHR0cHM6Ly9ubHNiYXJkLmxvYy5nb3YvbmxzYmFyZHByb2QvbWFpbnBhZ2U/NLS" ContentHash="uucAS3pkn0iULiIsvnDQLQ" DesignTimeRectangle="48, 709, 872, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Email Address' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' aaname='Email Address' /&gt;" Guid="1886f3f5-4347-4cce-bf81-c08e084e8d74" InformativeScreenshot="59a125839a4029a514607f1519e8a7f4.png" IsResponsive="True" Reference="RViNqRqnmUy3o1XF3nr19g/UulkYOL62kCaeYF3AuMw1Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD: Braille and Audio Reading Download National Library Service for the Blind and Print Disabled Downloadable Books and Magazines' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
-                                <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target DesignTimeRectangle="48, 678, 120, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Email Address' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' aaname='Email Address' check:text='Email Address' /&gt;" SearchSteps="FuzzySelector" />
-                                  </scg:List>
-                                </uix:TargetAnchorable.Anchors>
-                              </uix:TargetAnchorable>
-                            </uix:NTypeInto.Target>
-                          </uix:NTypeInto>
-                          <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="387.2,56.8" sap2010:WorkflowViewState.IdRef="GetPassword_3" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAbSUrN+yc10W4KjPVbhCNMwAAAAACAAAAAAAQZgAAAAEAACAAAAAc9EXN42QM9wz2x/RrWyM1HwA6D7lr+YZsckKCR9ZTFwAAAAAOgAAAAAIAACAAAADyetz+vCY672Gn2D17kM8goZzRgjqHLqGsW62WlQ/wJBAAAABjA8ZNtPOor2alD/s3FFwFQAAAAKkvixeMdb/Of/lPr7ZIiyI7RuSLwMYAA6AdqrDX5KRfhFdQZHtQ8xXzK/p6lsQEhMWJ6Estfl5WnwdhUDVhVU8=" Result="[pwd]" />
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_43" Text="[pwd]" Version="V3">
-                            <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/login/aHR0cHM6Ly9ubHNiYXJkLmxvYy5nb3YvbmxzYmFyZHByb2QvbWFpbnBhZ2U/NLS" ContentHash="rOSiFhmzuUS4YlR-MpNrVQ" DesignTimeRectangle="48, 801, 872, 43" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' aaname='Password' /&gt;" Guid="dea0e56d-9b4a-443e-9ed1-1430682b54ab" InformativeScreenshot="65aae04718f1e13a63ccbe3165051195.png" Reference="RViNqRqnmUy3o1XF3nr19g/GefFXztCLEuWGHl03kl9Mw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD: Braille and Audio Reading Download National Library Service for the Blind and Print Disabled Downloadable Books and Magazines' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
-                                <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target DesignTimeRectangle="48, 770, 82, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' check:text='Password' /&gt;" SearchSteps="FuzzySelector" />
-                                  </scg:List>
-                                </uix:TargetAnchorable.Anchors>
-                              </uix:TargetAnchorable>
-                            </uix:NTypeInto.Target>
-                          </uix:NTypeInto>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'login'" sap:VirtualizedContainerService.HintSize="387.2,182.4" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" Version="V3">
-                            <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/login/aHR0cHM6Ly9ubHNiYXJkLmxvYy5nb3YvbmxzYmFyZHByb2QvbWFpbnBhZ2U/NLS" ContentHash="FmLGacE3vUSsJe-hw2W76w" DesignTimeRectangle="48, 863, 74, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Login' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Login' check:text='Login' /&gt;" Guid="f7237ead-cece-41fe-8a09-db2873791ba0" InformativeScreenshot="779d8d1402bbefe7b79d8af04bf697ec.png" Reference="RViNqRqnmUy3o1XF3nr19g/aR4d0DS5bEiMFejsYQ04-A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD: Braille and Audio Reading Download National Library Service for the Blind and Print Disabled Downloadable Books and Magazines' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
-                            </uix:NClick.Target>
-                          </uix:NClick>
-                        </Sequence>
-                      </uix:NCheckState.IfNotExists>
-                      <uix:NCheckState.Target>
-                        <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/mainpage" ContentHash="Lly3h-kiKk6mAU0yBc26Jg" DesignTimeRectangle="342, 244, 392, 237" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl tag='DIV' visibleinnertext='BARD&amp;#xA;BARD main page' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='DIV' visibleinnertext='BARD&amp;#xA;BARD main page' check:text='BARD &amp;#xA;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;BARD main page' /&gt;" Guid="6ff704f5-9f3a-421a-8d48-a3e0b5868adb" InformativeScreenshot="6197f9339e1ed879d3d67f5f1ea99337.png" Reference="RViNqRqnmUy3o1XF3nr19g/sbMd9BhlYEOBub1aRV-a2Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD BARD main page' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target DesignTimeRectangle="342, 392, 392, 51" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H2' aaname='BARD main page' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H2' aaname='BARD main page' check:text='BARD main page' /&gt;" SearchSteps="FuzzySelector" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NCheckState.Target>
-                    </uix:NCheckState>
                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="952,176" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[index.ToString+&quot;: &quot;+currentItem]" />
-                    <Assign sap:VirtualizedContainerService.HintSize="952,114.4" sap2010:WorkflowViewState.IdRef="Assign_8">
+                    <Assign sap:VirtualizedContainerService.HintSize="952,113.6" sap2010:WorkflowViewState.IdRef="Assign_8">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[title]</OutArgument>
                       </Assign.To>
@@ -219,7 +219,7 @@
                         <InArgument x:TypeArguments="x:String">[currentItem.Split(" by.")(0)]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="952,114.4" sap2010:WorkflowViewState.IdRef="Assign_9">
+                    <Assign sap:VirtualizedContainerService.HintSize="952,113.6" sap2010:WorkflowViewState.IdRef="Assign_9">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[author]</OutArgument>
                       </Assign.To>
@@ -227,7 +227,7 @@
                         <InArgument x:TypeArguments="x:String">[currentItem.Split(" by.")(1).Split(" - year ")(0)]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="952,114.4" sap2010:WorkflowViewState.IdRef="Assign_10">
+                    <Assign sap:VirtualizedContainerService.HintSize="952,113.6" sap2010:WorkflowViewState.IdRef="Assign_10">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[year]</OutArgument>
                       </Assign.To>
@@ -257,16 +257,16 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NCheckState DisplayName="Check App State 'no results'" sap:VirtualizedContainerService.HintSize="952,699.2" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="7d3830cc-4997-4ccf-8326-3b04c753705b" Version="V3">
+                    <uix:NCheckState DisplayName="Check App State 'no results'" sap:VirtualizedContainerService.HintSize="952,756" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="7d3830cc-4997-4ccf-8326-3b04c753705b" Version="V3">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,448.8" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,505.6" sap2010:WorkflowViewState.IdRef="Sequence_19">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="387.2,176" sap2010:WorkflowViewState.IdRef="LogMessage_10" Message="[&quot;No results&quot;]" />
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'start over'" sap:VirtualizedContainerService.HintSize="387.2,182.4" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" Version="V3">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'start over'" sap:VirtualizedContainerService.HintSize="387.2,189.6" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" Version="V3">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/search/collection/srch/Falling%2520Away%2520From%2520You%253A%2520One%2520Family%2527s%2520Journey%2520Through%2520Traumatic%2520Brain%2520Injury/page/1/lang/eng" ContentHash="iJ7d-1CS50itnn-NIDirag" DesignTimeRectangle="28, 514, 152, 33" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' aaname='Start over' innertext='Start over' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='A' aaname='Start over' innertext='Start over' check:text='Start over' /&gt;" Guid="2be9b4d0-963e-4134-a3fc-51826b410253" InformativeScreenshot="34581793e767686ed9a170248bb2e364.png" Reference="RViNqRqnmUy3o1XF3nr19g/-RO7DHSSMkOpIXXQ-C4sxA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD Selection by Key Word. No Items Found' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -277,6 +277,7 @@
                               </uix:TargetAnchorable>
                             </uix:NClick.Target>
                           </uix:NClick>
+                          <ui:Continue sap:VirtualizedContainerService.HintSize="387.2,49.6" sap2010:WorkflowViewState.IdRef="Continue_1" />
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
@@ -300,17 +301,6 @@
                         </uix:TargetAnchorable>
                       </uix:NCheckState.Target>
                     </uix:NCheckState>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'add'" sap:VirtualizedContainerService.HintSize="952,189.6" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" Version="V3">
-                      <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/download/detail/srch/DB18784" ContentHash="N-n2VrJLZ0uHHus7r2lrmQ" DesignTimeRectangle="28, 1142, 1185, 33" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Add to my wish list*' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Add to my wish list*' tag='A' check:text='Add to my wish list*' /&gt;" Guid="31a2391b-fd1d-4f1a-b3c8-08dd42a172fb" InformativeScreenshot="a40e6153ca4a88f1a091cb0d90e7debf.png" Reference="RViNqRqnmUy3o1XF3nr19g/oB-ZFgLOKU-Cqg6cwgjopg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD Man&amp;apos;s search for meaning: an introduction to logotherapy' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
-                          <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                              <uix:Target DesignTimeRectangle="28, 152, 1861, 68" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' isleaf='1' parentclass='content' visibleinnertext='BARD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' isleaf='1' parentclass='content' visibleinnertext='BARD' check:text='BARD' /&gt;" SearchSteps="FuzzySelector" />
-                            </scg:List>
-                          </uix:TargetAnchorable.Anchors>
-                        </uix:TargetAnchorable>
-                      </uix:NClick.Target>
-                    </uix:NClick>
                     <uix:NCheckState DisplayName="Check App State 'remove'" sap:VirtualizedContainerService.HintSize="952,699.2" sap2010:WorkflowViewState.IdRef="NCheckState_3" Version="V3">
                       <uix:NCheckState.IfExists>
                         <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,259.2" sap2010:WorkflowViewState.IdRef="Sequence_15">
@@ -353,7 +343,7 @@
                         </uix:TargetAnchorable>
                       </uix:NCheckState.Target>
                     </uix:NCheckState>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'back'" sap:VirtualizedContainerService.HintSize="952,182.4" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" Version="V3">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'back'" sap:VirtualizedContainerService.HintSize="952,180.8" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" Version="V3">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://nlsbard.loc.gov/nlsbardprod/wishlist/add/srch/DB18784" ContentHash="jyIGHGIL1UWYj7h5J0f9iw" DesignTimeRectangle="28, 925, 253, 33" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='BARD main page' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='BARD main page' tag='A' check:text='BARD main page' /&gt;" Guid="a8e91c9a-f9cc-4bcc-b29f-a24177e57173" InformativeScreenshot="27c1a0f977af594a3be6e7322f6e06ca.png" Reference="RViNqRqnmUy3o1XF3nr19g/CfCCjmWknkWhO1QeWgh69w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD Book Man&amp;apos;s search for meaning: an introduction to logotherapy successfully added to wish list' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -366,14 +356,14 @@
                     </uix:NClick>
                   </Sequence>
                 </ActivityAction>
-              </uix:NApplicationCard.Body>
-              <uix:NApplicationCard.TargetApp>
-                <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="LEwBoNYOMkiNG6_EKmyT2g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABaSURBVDhP3YpBCsBADALzyH1cf9setgYVe0iPOzAgap3Cuu437QzBV9fwYWKTRpZJnZxd3wFnOUxs0sgyqZOz6zvgLIeJTRpZJnVydn0HnOUwUUhDOqbuP1UPUPcBEvX+bFEAAAAASUVORK5CYII=" InformativeScreenshot="2e47d2c52b8acd0690cb53c10e10b71f.jpg" Reference="RViNqRqnmUy3o1XF3nr19g/-3Ld9WRJv0KfUeJ3gCMHOw" Selector="&lt;html app='chrome.exe' title='BARD BARD main page' /&gt;" Title="BARD BARD main page" Url="https://nlsbard.loc.gov/" />
-              </uix:NApplicationCard.TargetApp>
-            </uix:NApplicationCard>
+              </ui:ForEach.Body>
+            </ui:ForEach>
           </Sequence>
         </ActivityAction>
-      </ui:ForEach.Body>
-    </ui:ForEach>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="LEwBoNYOMkiNG6_EKmyT2g" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAABaSURBVDhP3YpBCsBADALzyH1cf9setgYVe0iPOzAgap3Cuu437QzBV9fwYWKTRpZJnZxd3wFnOUxs0sgyqZOz6zvgLIeJTRpZJnVydn0HnOUwUUhDOqbuP1UPUPcBEvX+bFEAAAAASUVORK5CYII=" InformativeScreenshot="2e47d2c52b8acd0690cb53c10e10b71f.jpg" Reference="RViNqRqnmUy3o1XF3nr19g/-3Ld9WRJv0KfUeJ3gCMHOw" Selector="&lt;html app='chrome.exe' title='BARD BARD main page' /&gt;" Title="BARD BARD main page" Url="https://nlsbard.loc.gov/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
   </Sequence>
 </Activity>
