@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l7U5aHGxBUSmYiJx3WY9Rw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://nlsbard.loc.gov/nlsbardprod/search/collection/srch/Falling%2520Away%2520From%2520You%253A%2520One%2520Family%2527s%2520Journey%2520Through%2520Traumatic%2520Brain%2520Injury/page/1/lang/eng" DesignTimeRectangle="28, 525, 1861, 36" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' aaname=' Displaying items 0 through 0 of 0' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' aaname=' Displaying items 0 through 0 of 0' /&gt;" Guid="2f9b7daa-ebb4-4e3e-a1e7-92e988b6133d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='BARD Selection by Key Word. No Items Found' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="28, 591, 152, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' aaname='Start over' idx='1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='A' aaname='Start over' check:text='Start over' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1ce0ce6dd56897f813c23a61caed034b.png" xmlns="">0igNIB3PUZ0a40Zyhet3CZA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
